@@ -14,7 +14,7 @@ The code is built with following libraries:
 
 
 ### Dataset
-- CelebA (for training).
+- CelebA (for training)
 - LFW (for testing) 
 
 ### Before training
@@ -25,9 +25,9 @@ image_name1.jpg label1
 image_name2.jpg label2
 ```
 
-Then read the identity.txt to load the images for training
+Then read the identity.txt to load the images for training.
 
-The images need to be pre-aligned before training. We use FAN [1] to align all images in CelebA and LFW according to the position of the eyes
+The images need to be pre-aligned before training. We use FAN [1] to align all images in CelebA and LFW according to the position of the eyes。
 
 
 ### Training 
