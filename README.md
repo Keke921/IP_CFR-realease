@@ -41,6 +41,10 @@ python train.py --root_path="E:\data"
 		
 ```
 
+### Evaluation
+If the input is a single partial image, use FAN (the face_alignment function) to find the position of the existing face informace. Then align it to the corresponding position of the training images. 
+
+
 ## References
 - [1] Bulat, Adrian, and Georgios Tzimiropoulos. "How far are we from solving the 2d & 3d face alignment problem?(and a dataset of 230,000 3d facial landmarks)." Proceedings of the IEEE International Conference on Computer Vision. 2017.
 
